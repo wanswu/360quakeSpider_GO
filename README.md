@@ -1,23 +1,17 @@
 <h1 align="center">360QuakeSpider_GO版本</h1>
 <p align="center">
-    <a href="https://github.com/wanswu/360quakeSpider_GO/releases"/><img src="https://img.shields.io/github/downloads/wanswu/360quakeSpider_GO/total"/>
-    <a href="https://github.com/wanswu/360quakeSpider_GO/graphs/contributors"/><img src="https://img.shields.io/github/contributors-anon/wanswu/360quakeSpider_GO"/>
-    <a href="https://github.com/wanswu/360quakeSpider_GO/releases/"/><img src="https://img.shields.io/github/release/wanswu/360quakeSpider_GO"/>
-    <a href="https://github.com/wanswu/360quakeSpider_GO/issues"/><img src="https://img.shields.io/github/issues-raw/wanswu/360quakeSpider_GO"/>
+    <a href="https://github.com/wanswu/360quakeSpider_GO/releases" /><img src="https://img.shields.io/github/downloads/wanswu/360quakeSpider_GO/total"/>
+    <a href="https://github.com/wanswu/360quakeSpider_GO/graphs/contributors" /><img src="https://img.shields.io/github/contributors-anon/wanswu/360quakeSpider_GO"/>
+    <a href="https://github.com/wanswu/360quakeSpider_GO/releases/" /><img src="https://img.shields.io/github/release/wanswu/360quakeSpider_GO"/>
+    <a href="https://github.com/wanswu/360quakeSpider_GO/issues" /><img src="https://img.shields.io/github/issues-raw/wanswu/360quakeSpider_GO"/>
 </p>
 
 ---
 
+## 目前完成的功能：
 
-# 版本历史
-## 2024.3.13
-- [x] 1.绕过1w条数据的限制（不太稳定）
-## 2024.1.17
-
-目前完成的功能：
-
-- [x] 1.数据存储（txt）
-
+- ✅ 1.数据存储（txt）
+- ✅ 2.绕过1w条数据的限制（不太稳定）
 
 # 使用方法
 在[releases](https://github.com/wanswu/360quakeSpider_GO/releases)中下载对应系统版本
@@ -28,6 +22,8 @@
 ```shell
 ./360quakeSpider_GO -k '搜索语法'
 ```
+
+最后保存为`txt`文件，保存的格式为`[协议]://[host]:[port]`，有域名的情况下优先保存域名。
 
 # `PS：代码写的和屎一样，就不发了`
 
